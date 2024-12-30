@@ -7,7 +7,16 @@ toolchain go1.22.4
 require github.com/wailsapp/wails/v2 v2.9.2
 
 require (
+	github.com/hajimehoshi/go-mp3 v0.3.0 // indirect
+	github.com/hajimehoshi/oto v0.7.1 // indirect
+	golang.org/x/exp/shiny v0.0.0-20241217172543-b2144cdd0a67 // indirect
+	golang.org/x/image v0.14.0 // indirect
+	golang.org/x/mobile v0.0.0-20231127183840-76ac6878050a // indirect
+)
+
+require (
 	github.com/bep/debounce v1.2.1 // indirect
+	github.com/faiface/beep v1.1.0
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/godbus/dbus/v5 v5.1.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
