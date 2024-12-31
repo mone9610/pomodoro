@@ -2,7 +2,6 @@ package main
 
 import (
 	"context"
-	"fmt"
 	"log"
 	"os"
 	"time"
@@ -26,10 +25,6 @@ func (a *App) startup(ctx context.Context) {
 	if err != nil {
 		log.Fatal(err)
 	}
-}
-
-func (a *App) Greet(name string) string {
-	return fmt.Sprintf("Hello %s, It's show time!", name)
 }
 
 func (a *App) PlayAlarm() {
